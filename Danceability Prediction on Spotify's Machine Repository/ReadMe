@@ -1,0 +1,42 @@
+Problem Statement:
+Songs can be predicted on basis of their characteristics or lyrics. In this study, we used the audio features as our feature vector and danceable column as our class label. The technique can further be used to recommend the dance hits to the user. Efficient models are built, tested and compared. Unique features are considered and utmost care is taken to avoid any biases. 
+
+- Programming language used : Python 2.7
+- Packages : pandas
+			 numpy
+			 seaborn
+			 scikit-learn
+			 matplotlib
+			 mpl_toolkits
+
+
+- Files:
+
+1.  Danceability_Prediction_Spotify.csv
+	This file consists of sample unbiased data.
+
+2.  Danceability_Prediction_LR.ipynb
+	This file consists of code to train Logistic Regression model. It consists of code to load the dataset, visualize and pre-process it, train the model with and without PCA and compute the LR classfier's performance metrics like Accuracy, Precision, Recall and F-1 score. 
+
+3.  Danceability_Prediction_RandomForest.ipynb
+	This file consists of code to train Random Forest Classification model. It consists of code to load the dataset, visualize and pre-process it, train the model with and without PCA and compute the RF classfier's performance metrics like Accuracy, Precision, Recall and F-1 score.
+
+4.  Danceability_Prediction_SVM.ipynb
+	This file consists of code to train Support Vector Machines model. It consists of code to load the dataset, visualize and pre-process it, train the model with and without PCA and compute the SVM classfier's performance metrics like Accuracy, Precision, Recall and F-1 score. 
+
+5.  Danceability_Prediction_GNB.ipynb
+	This file consists of code to train Gaussian Naive Bayes model. It consists of code to load the dataset, visualize and pre-process it, train the model with and without PCA and compute the GNB classfier's performance metrics like Accuracy, Precision, Recall and F-1 score. 
+
+6.  Danceability_Prediction_KNN.ipynb
+	This file consists of code to train K-Nearest Neighbors model. It consists of code to load the dataset, visualize and pre-process it, train the model with and without PCA and compute the KNN classfier's performance metrics like Accuracy, Precision, Recall and F-1 score. 
+
+7.  Danceability_Prediction_NeuralNets.ipynb
+	This file consists of code to train Neural Networks model. It consists of code to load the dataset, visualize and pre-process it, train the model with and without PCA and compute the NN classfier's performance metrics like Accuracy, Precision, Recall and F-1 score. 
+
+
+Steps:
+- Make sure that all the notebook files and the data file is in the same folder
+- Open the notebook files using anaconda
+- Run each file individually
+- You can run individual cells or all the cells at once
+
