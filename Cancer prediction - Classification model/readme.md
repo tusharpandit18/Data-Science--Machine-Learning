@@ -17,4 +17,4 @@
 
 - Instead of just a single test on test data, performed a stratified k-fold cross validation on training data
 
-- Computed accuracy, precision, recall f1-score by using confusion matrix and classification report
+- Computed accuracy, precision, recall, f1-score by using confusion matrix and classification report
