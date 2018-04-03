@@ -1,0 +1,33 @@
+
+AXON MACHINE LEARNING PROJECT
+
+Objective:
+The objective of the project was to distinguish between sound created by a gunshot and a car backfire.
+
+Libraries used:
+Librosa - For audio feature extraction 
+Scikit-learn - For implementing various machine learning models
+
+Machine Learning Models implemented:
+- K-Nearest Neighbors (k =5, default)
+- Neural Networks
+- Support Vector Machine with RBF kernel
+- Gaussian Naive Bayes
+
+The submission consists of a zip file containing:
+- All the ipython notebook files
+- Also, all the output files named GNB_predictions.csv, KNN_predictions.csv, NeuralNets_predictions.csv, SVM_predictions.csv
+- Each CSV consists of the test audio_file names and the appropriate predictions
+
+To run the files:
+- Extract the files from the zip submitted.
+- The zip consists of files named GunDetection_GNB.ipynb, GunDetection_KNN.ipynb, GunDetection_NeuralNets.ipynb, GunDetection_SVM.ipynb
+- Before executing files, make sure the they are placed at proper location. All these files are to be placed outside of the discharge-detection folder.
+
+Performances:
+GNB: 93.85%
+KNN: 94.83%
+Neural Networks: 95.26%
+SVM with RBF kernel: 94.68%
+
+Conclusion: Neural Networks have the highest accuracy of 95.26%
